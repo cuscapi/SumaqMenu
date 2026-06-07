@@ -1,0 +1,14 @@
+D:\C#\MenuBonito\bin\Debug\net10.0\MenuBonito.exe
+D:\C#\MenuBonito\bin\Debug\net10.0\MenuBonito.deps.json
+D:\C#\MenuBonito\bin\Debug\net10.0\MenuBonito.runtimeconfig.json
+D:\C#\MenuBonito\bin\Debug\net10.0\MenuBonito.dll
+D:\C#\MenuBonito\bin\Debug\net10.0\MenuBonito.pdb
+D:\C#\MenuBonito\obj\Debug\net10.0\MenuBonito.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\MenuBonito\obj\Debug\net10.0\MenuBonito.AssemblyInfoInputs.cache
+D:\C#\MenuBonito\obj\Debug\net10.0\MenuBonito.AssemblyInfo.cs
+D:\C#\MenuBonito\obj\Debug\net10.0\MenuBonito.csproj.CoreCompileInputs.cache
+D:\C#\MenuBonito\obj\Debug\net10.0\MenuBonito.dll
+D:\C#\MenuBonito\obj\Debug\net10.0\refint\MenuBonito.dll
+D:\C#\MenuBonito\obj\Debug\net10.0\MenuBonito.pdb
+D:\C#\MenuBonito\obj\Debug\net10.0\MenuBonito.genruntimeconfig.cache
+D:\C#\MenuBonito\obj\Debug\net10.0\ref\MenuBonito.dll
