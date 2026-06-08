@@ -16,17 +16,12 @@ namespace MenuBonito
         #endregion
 
         #region 2. Constructores
-
-
-        // 2.2. Constructor con parametros
+        // 2.1. Constructor con parametros
         public SumaqMenu(string _rotulo)
         {
             rotulo = _rotulo;
             opciones = new List<string>();
         }
-        #endregion
-
-        #region 3. Propiedades
         #endregion
 
         #region 4. Metodos
@@ -39,6 +34,7 @@ namespace MenuBonito
         // 4.2. Mostrar menu completo
         public void MostrarMenu1()
         {
+            // Caracteres UNICODE
             const char SI = '╭'; // Superior Izquierda
             const char SD = '╮'; // Superior Derecha
             const char II = '╰'; // Inferior Izquierda
@@ -50,22 +46,24 @@ namespace MenuBonito
 
             int tamanio = MaxTamOpcion();
            
-            string pH = new string(H, tamanio + 4);
+            string sH = new string(H, tamanio + 4);
             string eV = new string(' ', tamanio - rotulo.Length + 4);
 
-            Console.WriteLine(SI + pH + SD);
-            Console.WriteLine(V + rotulo + eV + V);
-            Console.WriteLine(UI + pH + UD);
+            // Dibujo del menu
+            // Menu parte superior 
+            Console.WriteLine(SI + sH + SD);
+            Console.WriteLine(V +  rotulo + eV + V);
+            Console.WriteLine(UI + sH + UD);
             
+            // Menu parte media
             for (int i = 0; i < opciones.Count; i++)
             {
-                string ultimoEspacio = new string(' ',DibujarUltimaRegion(tamanio, opciones[i].Length));
-                Console.WriteLine($"{V}{i + 1}. {opciones[i]}{ultimoEspacio} {V}");
+                string espaOpcion = new string(' ', tamanio - opciones[i].Length);
+                Console.WriteLine($"{V}{i + 1}. {opciones[i]}{espaOpcion} {V}");
             }
 
-            Console.WriteLine(II + pH + ID);
-
-            Console.Write("\nSeleccione una opción: ");
+            // Menu parte inferior
+            Console.WriteLine(II + sH + ID);
         }
 
         // 4.3. Cadena mas larga
@@ -83,10 +81,5 @@ namespace MenuBonito
             return maximo;
         }
         #endregion
-
-        private int DibujarUltimaRegion(int tamanio, int lengthOpcion)
-        {                                    
-            return tamanio - lengthOpcion;
-        }
     }
 }

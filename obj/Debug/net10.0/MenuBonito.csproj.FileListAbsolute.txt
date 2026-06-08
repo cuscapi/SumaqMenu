@@ -12,3 +12,4 @@ D:\C#\MenuBonito\obj\Debug\net10.0\refint\MenuBonito.dll
 D:\C#\MenuBonito\obj\Debug\net10.0\MenuBonito.pdb
 D:\C#\MenuBonito\obj\Debug\net10.0\MenuBonito.genruntimeconfig.cache
 D:\C#\MenuBonito\obj\Debug\net10.0\ref\MenuBonito.dll
+D:\C#\MenuBonito\obj\Debug\net10.0\MenuBonito.sourcelink.json
